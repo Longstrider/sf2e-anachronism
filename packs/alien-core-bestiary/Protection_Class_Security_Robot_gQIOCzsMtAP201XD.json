@@ -122,11 +122,60 @@
         "otherSpeeds": [],
         "details": ""
       },
+      "immunities": [
+        {
+          "type": "bleed"
+        },
+        {
+          "type": "death-effects"
+        },
+        {
+          "type": "disease"
+        },
+        {
+          "type": "doomed"
+        },
+        {
+          "type": "drained"
+        },
+        {
+          "type": "fatigued"
+        },
+        {
+          "type": "healing"
+        },
+        {
+          "type": "mental"
+        },
+        {
+          "type": "nonlethal-attacks"
+        },
+        {
+          "type": "paralyzed"
+        },
+        {
+          "type": "poison"
+        },
+        {
+          "type": "sickened"
+        },
+        {
+          "type": "spirit"
+        },
+        {
+          "type": "unconscious"
+        },
+        {
+          "type": "vitality"
+        },
+        {
+          "type": "void"
+        }
+      ],
       "weaknesses": [
         {
           "type": "electricity",
-          "value": 5,
-          "exceptions": []
+          "value": 5
         }
       ]
     },
@@ -142,7 +191,7 @@
         "value": 4
       },
       "blurb": "",
-      "publicNotes": "",
+      "publicNotes": "<p>These security robots are often constructed out of more durable materials than other robots, granting them the ability to protect their charges. Their bulky frames can be seen guarding important individuals or valuable items</p><hr /><p>Security robots are ubiquitous throughout industrialized space and have major presences in both the Pact Worlds and Veskarium, employed and customized by corporations and private citizens alike.</p><p>While most soldier robot models are built to be as destructive as possible, and elimination robots are designed to kill, security robots usually have fail-safes programmed into their behavior to prevent them from causing any more violence than is necessary to perform their designated security function. This makes them especially useful in cities, where unintended destruction might harm bystanders or cause legal issues, and even on starships, where a stray laser blast might cause serious damage to vital starship systems.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -153,11 +202,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.943,
+      "version": 0.946,
       "previous": {
         "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.1"
+        "foundry": "13.350",
+        "system": "7.5.2"
       }
     },
     "abilities": {
@@ -246,12 +295,12 @@
         "rules": [],
         "slug": "laser-rifle",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -360,91 +409,19 @@
       "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/teal-sci-fi-gun.webp",
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "sort": 3700000,
-      "_id": "gowWhSmh2shNgk85",
+      "_id": "G9r0Ld4jTAcCGZUD",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.gowWhSmh2shNgk85"
-    },
-    {
-      "_id": "Yf6kZjmixbb9G54k",
-      "name": "Integrated Tactical Laser Rifle",
-      "type": "melee",
-      "system": {
-        "slug": "laser-rifle",
-        "bonus": {
-          "value": 13
-        },
-        "damageRolls": {
-          "BZ3TODS7BBTMenVv": {
-            "damage": "1d8+3",
-            "damageType": "fire",
-            "category": null
-          }
-        },
-        "traits": {
-          "value": [
-            "expend-2",
-            "mag-20",
-            "range-increment-80",
-            "reload-1",
-            "tech",
-            "tracking-1"
-          ],
-          "otherTags": []
-        },
-        "rules": [],
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "_migration": {
-          "version": 0.943,
-          "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
-          }
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "flags": {
-        "pf2e": {
-          "linkedWeapon": "gowWhSmh2shNgk85"
-        }
-      },
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "effects": [],
-      "folder": null,
-      "sort": 0,
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.Yf6kZjmixbb9G54k"
+      "_key": "!actors.items!gQIOCzsMtAP201XD.G9r0Ld4jTAcCGZUD"
     },
     {
       "name": "Battery (Tactical)",
@@ -458,12 +435,12 @@
         "rules": [],
         "slug": "battery-tactical",
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "lastMigration": null,
           "previous": {
-            "schema": 0.94,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "traits": {
@@ -495,8 +472,7 @@
         "price": {
           "value": {
             "sp": 20
-          },
-          "per": 1
+          }
         },
         "equipped": {
           "carryType": "worn"
@@ -524,7 +500,7 @@
         "uses": {
           "value": 20,
           "max": 20,
-          "autoDestroy": false
+          "autoDestroy": true
         },
         "damage": null,
         "usage": {
@@ -536,20 +512,94 @@
       "img": "modules/sf2e-anachronism/art/icons/equipment/other/blue-battery.webp",
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "folder": "F6h7fO0Z7cgQBVRD",
       "sort": 500000,
-      "_id": "AOJr0TTYhvo3p9Qg",
+      "_id": "geFOxxfxea8KMafY",
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.AOJr0TTYhvo3p9Qg"
+      "_key": "!actors.items!gQIOCzsMtAP201XD.geFOxxfxea8KMafY"
+    },
+    {
+      "_id": "2PEkl3r6iXzK5am9",
+      "name": "Laser Rifle",
+      "type": "melee",
+      "system": {
+        "slug": "laser-rifle",
+        "bonus": {
+          "value": 13
+        },
+        "damageRolls": {
+          "GrhuYVAmJq05g8zm": {
+            "damage": "1d8+3",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "traits": {
+          "value": [
+            "expend-2",
+            "mag-20",
+            "range-increment-100",
+            "reload-1",
+            "tech",
+            "tracking-1"
+          ],
+          "otherTags": []
+        },
+        "rules": [],
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "flags": {
+        "pf2e": {
+          "linkedWeapon": "G9r0Ld4jTAcCGZUD"
+        }
+      },
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!gQIOCzsMtAP201XD.2PEkl3r6iXzK5am9"
     },
     {
       "type": "melee",
@@ -557,8 +607,12 @@
       "effects": [],
       "system": {
         "_migration": {
-          "version": 0.943,
-          "previous": null
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
         },
         "description": {
           "value": "",
@@ -574,12 +628,10 @@
         "slug": null,
         "traits": {
           "otherTags": [],
-          "value": [
-            "unarmed"
-          ]
+          "value": []
         },
         "damageRolls": {
-          "HhcgQ5NSXwuudjhx": {
+          "n5VNdaP4AyjBeSte": {
             "damage": "2d6+5",
             "damageType": "bludgeoning",
             "category": null
@@ -590,25 +642,27 @@
         },
         "attackEffects": {
           "value": []
-        }
+        },
+        "action": "strike",
+        "area": null
       },
-      "_id": "Kl64f5zvTaxjwvYq",
+      "_id": "FoJhbkMh1zAjT7QK",
       "img": "systems/pf2e/icons/default-icons/melee.svg",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.Kl64f5zvTaxjwvYq"
+      "_key": "!actors.items!gQIOCzsMtAP201XD.FoJhbkMh1zAjT7QK"
     },
     {
       "type": "action",
@@ -634,11 +688,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -648,23 +702,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "YU9r3ehTF00ev7r3",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "I0O4PwIN7FfVo7ot",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.YU9r3ehTF00ev7r3"
+      "_key": "!actors.items!gQIOCzsMtAP201XD.I0O4PwIN7FfVo7ot"
     },
     {
       "type": "action",
@@ -674,7 +728,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The security robot restores @Damage[22[healing]] Hit Points to one technological creature or item.</p>",
+          "value": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The security robot restores @Damage[24[healing]] Hit Points per the robot's level to one technological creature or item.</p>",
           "gm": ""
         },
         "publication": {
@@ -690,11 +744,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -708,23 +762,23 @@
         }
       },
       "effects": [],
-      "_id": "Rn0m62ZXfQFRwA6T",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "O13dDwZikWQHDpCg",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!gQIOCzsMtAP201XD.Rn0m62ZXfQFRwA6T"
+      "_key": "!actors.items!gQIOCzsMtAP201XD.O13dDwZikWQHDpCg"
     }
   ],
   "flags": {},
@@ -732,13 +786,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!actors!gQIOCzsMtAP201XD"

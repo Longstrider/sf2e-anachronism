@@ -124,15 +124,13 @@
       },
       "immunities": [
         {
-          "type": "fire",
-          "exceptions": []
+          "type": "fire"
         }
       ],
       "weaknesses": [
         {
           "type": "cold",
-          "value": 5,
-          "exceptions": []
+          "value": 5
         }
       ]
     },
@@ -148,7 +146,7 @@
         "value": 3
       },
       "blurb": "",
-      "publicNotes": "",
+      "publicNotes": "<p>A standard thermatrod dwells near volcanic vents and other sources of intense heat.</p><hr /><p>Originally thought to be exiles from the Plane of Fire, thermatrods actually developed independently in multiple star systems in the Universe. A thermatrod resembles a molten bipedal creature, though they often walk on their front knuckles to support their heavy frames. Thermatrods sport distinctive raised dorsal plates that resemble hexagonal basalt columns, which researchers use to estimate an individual's age. A thermatrod's hardened exterior varies greatly based on local mineral deposits that make up a thermatrod's diet.</p>",
       "privateNotes": "",
       "publication": {
         "title": "Starfinder Alien Core",
@@ -159,11 +157,11 @@
     },
     "resources": {},
     "_migration": {
-      "version": 0.943,
+      "version": 0.946,
       "previous": {
         "schema": 0.943,
-        "foundry": "13.348",
-        "system": "7.5.1"
+        "foundry": "13.350",
+        "system": "7.5.2"
       }
     },
     "abilities": {
@@ -255,37 +253,37 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
           "value": null
         },
-        "category": "offensive",
+        "category": "interaction",
         "deathNote": false
       },
       "effects": [],
-      "_id": "ui1ryJ0VLAidSg89",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "fhoeskPq6jtIIHF6",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.ui1ryJ0VLAidSg89"
+      "_key": "!actors.items!9Glg5ae0zQtosEUD.fhoeskPq6jtIIHF6"
     },
     {
       "type": "action",
@@ -304,16 +302,7 @@
           "license": "OGL",
           "remaster": false
         },
-        "rules": [
-          {
-            "key": "Aura",
-            "radius": 10,
-            "traits": [
-              "fire"
-            ],
-            "effects": []
-          }
-        ],
+        "rules": [],
         "slug": null,
         "traits": {
           "otherTags": [],
@@ -323,11 +312,11 @@
           ]
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -337,150 +326,23 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "8WyXUZFtxro7hZ9e",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "9buF1xxiu62UB284",
+      "img": "systems/pf2e/icons/actions/Passive.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.8WyXUZFtxro7hZ9e"
-    },
-    {
-      "type": "melee",
-      "name": "Fist",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.943,
-          "previous": null
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "reach-10",
-            "unarmed"
-          ]
-        },
-        "damageRolls": {
-          "axdqNSNk6pYCBncM": {
-            "damage": "1d8+4",
-            "damageType": "bludgeoning",
-            "category": null
-          },
-          "0kVy82CA0aNJDRpr": {
-            "damage": "1d6",
-            "damageType": "fire",
-            "category": "persistent"
-          }
-        },
-        "bonus": {
-          "value": 12
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "_id": "ifd5nPMSEpNKOq0Q",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.ifd5nPMSEpNKOq0Q"
-    },
-    {
-      "type": "melee",
-      "name": "Lava Blob",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.943,
-          "previous": null
-        },
-        "description": {
-          "value": "",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": [
-            "fire",
-            "propulsive",
-            "range-increment-30"
-          ]
-        },
-        "damageRolls": {
-          "f9VTpFxugkhVq4ub": {
-            "damage": "1d6+2",
-            "damageType": "fire",
-            "category": null
-          }
-        },
-        "bonus": {
-          "value": 10
-        },
-        "attackEffects": {
-          "value": []
-        }
-      },
-      "_id": "OnB6vPS0PPsAxxz6",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.OnB6vPS0PPsAxxz6"
+      "_key": "!actors.items!9Glg5ae0zQtosEUD.9buF1xxiu62UB284"
     },
     {
       "type": "action",
@@ -506,11 +368,11 @@
           "value": []
         },
         "_migration": {
-          "version": 0.943,
+          "version": 0.946,
           "previous": {
-            "schema": null,
-            "foundry": "13.348",
-            "system": "7.5.1"
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
           }
         },
         "actions": {
@@ -520,23 +382,161 @@
         "deathNote": false
       },
       "effects": [],
-      "_id": "AZ9Ene1p2ZAqICin",
-      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "_id": "W3JJwbimJYguvO32",
+      "img": "systems/pf2e/icons/actions/TwoActions.webp",
       "folder": null,
       "sort": 0,
       "flags": {},
       "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
         "compendiumSource": null,
         "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.348",
-        "systemId": "pf2e",
-        "systemVersion": "7.5.1"
+        "exportSource": null
       },
       "ownership": {
         "default": 0
       },
-      "_key": "!actors.items!9Glg5ae0zQtosEUD.AZ9Ene1p2ZAqICin"
+      "_key": "!actors.items!9Glg5ae0zQtosEUD.W3JJwbimJYguvO32"
+    },
+    {
+      "type": "melee",
+      "name": "Fist",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "reach-10"
+          ]
+        },
+        "damageRolls": {
+          "O1dugSPe5adtwPil": {
+            "damage": "1d8+4",
+            "damageType": "bludgeoning",
+            "category": null
+          },
+          "K6yiHCWoq9YFcqcw": {
+            "damage": "1d6",
+            "damageType": "fire",
+            "category": "persistent"
+          }
+        },
+        "bonus": {
+          "value": 12
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "_id": "EHBpMsJunbVfVM5t",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9Glg5ae0zQtosEUD.EHBpMsJunbVfVM5t"
+    },
+    {
+      "type": "melee",
+      "name": "Lava Blob",
+      "effects": [],
+      "system": {
+        "_migration": {
+          "version": 0.946,
+          "previous": {
+            "schema": 0.943,
+            "foundry": "13.350",
+            "system": "7.5.2"
+          }
+        },
+        "description": {
+          "value": "",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": [
+            "fire",
+            "propulsive",
+            "range-increment-30"
+          ]
+        },
+        "damageRolls": {
+          "mBuGHKjOaz4Q6rPT": {
+            "damage": "1d6+2",
+            "damageType": "fire",
+            "category": null
+          }
+        },
+        "bonus": {
+          "value": 10
+        },
+        "attackEffects": {
+          "value": []
+        },
+        "action": "strike",
+        "area": null
+      },
+      "_id": "GvFjmjjzQ1xq9c2o",
+      "img": "systems/pf2e/icons/default-icons/melee.svg",
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.350",
+        "systemId": "pf2e",
+        "systemVersion": "7.6.2",
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null
+      },
+      "ownership": {
+        "default": 0
+      },
+      "_key": "!actors.items!9Glg5ae0zQtosEUD.GvFjmjjzQ1xq9c2o"
     }
   ],
   "flags": {},
@@ -544,13 +544,12 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.2"
   },
   "ownership": {
-    "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "default": 0
   },
   "sort": 0,
   "_key": "!actors!9Glg5ae0zQtosEUD"

@@ -1,37 +1,26 @@
 {
-  "name": "Effect: Sharpshooter",
+  "name": "Effect: Bolstering Aura",
   "type": "effect",
   "effects": [],
   "system": {
     "_migration": {
-      "version": 0.943,
+      "version": 0.946,
       "previous": null
     },
     "description": {
-      "value": "<p>Ephemeral Effect.</p><p>The AC bonus you receive from lesser or standard cover is reduced by 1.</p>",
+      "value": "<p>You gain 8 temporary Hit Points.</p>",
       "gm": ""
     },
     "publication": {
-      "title": "Starfinder Guilt of the Grave World",
+      "title": "Starfinder Alien Core",
       "authors": "",
       "license": "ORC",
       "remaster": true
     },
     "rules": [
       {
-        "key": "AdjustModifier",
-        "selector": "ac",
-        "mode": "add",
-        "slug": "cover",
-        "value": -1,
-        "predicate": [
-          {
-            "nor": [
-              "self:cover-level:greater",
-              "self:cover-level:greater-prone"
-            ]
-          }
-        ]
+        "key": "TempHP",
+        "value": 8
       }
     ],
     "slug": null,
@@ -40,7 +29,7 @@
       "value": []
     },
     "level": {
-      "value": 1
+      "value": 4
     },
     "duration": {
       "value": -1,
@@ -60,22 +49,22 @@
     "fromSpell": false,
     "context": null
   },
-  "img": "icons/skills/targeting/crosshair-ringed-gray.webp",
+  "_id": "ZWOPndNX0EIhYCG9",
+  "img": "icons/magic/symbols/ring-circle-smoke-blue.webp",
   "folder": null,
+  "sort": 800000,
   "ownership": {
     "default": 0,
-    "qA45GVv5hySaf9b5": 3
+    "HfqCvkteYnTykQsA": 3
   },
   "flags": {},
   "_stats": {
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.6.2"
   },
-  "_id": "jF2YVTcYorlUIetc",
-  "sort": 0,
-  "_key": "!items!jF2YVTcYorlUIetc"
+  "_key": "!items!ZWOPndNX0EIhYCG9"
 }
