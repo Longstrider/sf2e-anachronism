@@ -54,6 +54,7 @@
         "key": "RollOption",
         "option": "get-em:lead-by-example-strike",
         "toggleable": true,
+        "value": true,
         "predicate": [
           "self:signature:{item|origin.signature}",
           "get-em:lead-by-example"
