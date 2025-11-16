@@ -164,7 +164,7 @@
         "details": ""
       },
       "level": {
-        "value": 3
+        "value": 1
       },
       "blurb": "",
       "publicNotes": "<p>Rigor mortics were designed as literal cannon fodder for Corpse Fleet squadrons performing boarding actions in deep space. Barrow's notorious research and development division engineered these unliving weapons from the recycled remnants of heavily damaged troopers that were then grafted into powered armor. Rigor mortics are ammunition and shock trooper combined, designed to blast through hulls or crash-land into planets—and keep fighting without falling apart on impact.</p><h2>Forging a Rigor Mortic</h2><p>Rigor mortics are built from chunks of soldiers left behind on the battlefield, grafted into heavy armor and reanimated by necromagitech. Some rigor mortics are forged from the corpses of Corpse Fleet heroes whose bodies are too broken to continue fighting, but most are amalgams of Corpse Fleet survivors, dead enemies, and living conscripts cruelly forced to endure this fate. Once a collection of parts is grafted permanently into a suit of armor, the final step is coating the rigor mortic in a shell of supernatural ice, turning them into projectiles that can be fired from starship cannons in squads of two to four per shot. These \"rigor mortars,\" as they've been nicknamed by some fleet captains, are stored in cryohangars until the moment they're loaded into a cannon. The ice melts away during the rigor mortic's flight, releasing the thawed undead from their shell.</p>",
@@ -923,9 +923,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.348",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.5.1"
+    "systemVersion": "7.7.3"
   },
   "ownership": {
     "default": 0,
