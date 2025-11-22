@@ -32,8 +32,8 @@
     "level": {
       "value": 0
     },
-    "quantity": 1,
-    "baseItem": null,
+    "quantity": 10,
+    "baseItem": "projectile-ammo",
     "bulk": {
       "value": 0
     },
@@ -80,8 +80,9 @@
     "usage": {
       "value": "other"
     },
+    "spell": null,
     "stackGroup": null,
-    "spell": null
+    "craftableAs": null
   },
   "img": "modules/sf2e-anachronism/art/icons/equipment/weapons/red-rounds.webp",
   "flags": {},
@@ -89,9 +90,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.350",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "folder": "F6h7fO0Z7cgQBVRD",
   "ownership": {
