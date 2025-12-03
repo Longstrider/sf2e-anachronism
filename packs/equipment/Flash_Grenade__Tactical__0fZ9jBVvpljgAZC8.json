@@ -77,7 +77,8 @@
       "misidentified": {}
     },
     "usage": {
-      "value": "held-in-one-hand"
+      "value": "held-in-one-hand",
+      "canBeAmmo": false
     },
     "category": "simple",
     "group": "grenade",
@@ -124,7 +125,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.7.3"
+    "systemVersion": "7.7.4"
   },
   "_id": "0fZ9jBVvpljgAZC8",
   "_key": "!items!0fZ9jBVvpljgAZC8"

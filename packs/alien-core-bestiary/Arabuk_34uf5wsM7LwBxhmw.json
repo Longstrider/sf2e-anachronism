@@ -241,7 +241,7 @@
           "value": "passive"
         },
         "description": {
-          "value": "<p>Snow doesn’t impair a yearling arabuk’s vision; it ignores concealment from snowfall.</p>",
+          "value": "<p>Snow doesn’t impair an arabuk’s vision; it ignores concealment from snowfall.</p>",
           "gm": ""
         },
         "publication": {
@@ -279,9 +279,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.7.4"
       },
       "_id": "H7gPVBa3Xj3wn6xg",
       "ownership": {

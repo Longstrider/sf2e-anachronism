@@ -94,7 +94,10 @@
     },
     "range": 20,
     "expend": 5,
-    "ammo": null,
+    "ammo": {
+      "baseType": "battery",
+      "builtIn": false
+    },
     "reload": {
       "value": "2"
     },
@@ -121,7 +124,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.7.3"
+    "systemVersion": "7.7.4"
   },
   "_key": "!items!r2EzMZWgtMaJth6A"
 }
