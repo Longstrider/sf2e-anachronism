@@ -632,7 +632,7 @@
           "value": "reaction"
         },
         "description": {
-          "value": "<p><strong>Trigger</strong> The dragon is critically hit by an attack</p><hr /><p><strong>Effect</strong> The young Akashic dragon raises a web of deflecting lasers using the eyes embedded all over their body, gaining resistance 15 to all damage against the triggering attack and absorbing some of the blow's energy, recharging their Akashic Barrage. If the Akashic dragon has succeeded at a @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo] check against the creature in the last minute, they gain resistance 20 instead.</p>",
+          "value": "<p><strong>Trigger</strong> The dragon is critically hit by an attack</p><hr /><p><strong>Effect</strong> The Akashic dragon raises a web of deflecting lasers using the eyes embedded all over their body, gaining resistance 15 to all damage against the triggering attack and absorbing some of the blow's energy, recharging their Akashic Barrage. If the Akashic dragon has succeeded at a @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo] check against the creature in the last minute, they gain resistance 20 instead.</p>",
           "gm": ""
         },
         "publication": {
@@ -673,9 +673,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.7.4"
       },
       "ownership": {
         "default": 0

@@ -23,10 +23,10 @@
       "rarity": "common"
     },
     "publication": {
-      "title": "",
+      "title": "Starfinder Player Core",
       "authors": "",
-      "license": "OGL",
-      "remaster": false
+      "license": "ORC",
+      "remaster": true
     },
     "level": {
       "value": 4
@@ -47,7 +47,8 @@
         "pp": 0,
         "gp": 0,
         "cp": 0
-      }
+      },
+      "per": 1
     },
     "equipped": {
       "carryType": "worn"
@@ -81,8 +82,8 @@
     "usage": {
       "value": "held-in-one-hand"
     },
-    "stackGroup": null,
-    "spell": null
+    "spell": null,
+    "stackGroup": null
   },
   "img": "modules/sf2e-anachronism/art/icons/abilities/green-syringe-2.webp",
   "ownership": {
@@ -95,9 +96,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "_id": "2lTv6zUJBAtgcxs2",
   "sort": 109375,

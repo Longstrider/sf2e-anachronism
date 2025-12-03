@@ -37,7 +37,7 @@
       "remaster": true
     },
     "level": {
-      "value": 6
+      "value": 12
     },
     "quantity": 1,
     "baseItem": null,
@@ -96,9 +96,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.7.4"
   },
   "_id": "voeYTU9JcpjmOufS",
   "sort": 1800000,

@@ -1202,63 +1202,6 @@
       "_key": "!actors.items!wdlD7yRgb8i7fejP.CugYZrkH97K53L9W"
     },
     {
-      "type": "melee",
-      "name": "Raid Ready",
-      "effects": [],
-      "system": {
-        "_migration": {
-          "version": 0.946,
-          "previous": {
-            "schema": 0.943,
-            "foundry": "13.350",
-            "system": "7.5.2"
-          }
-        },
-        "description": {
-          "value": "<p>The Free Captain gunner Switches Hands, then Raises a Shield or Reloads, in any order.</p>",
-          "gm": ""
-        },
-        "publication": {
-          "title": "",
-          "authors": "",
-          "license": "OGL",
-          "remaster": false
-        },
-        "rules": [],
-        "slug": null,
-        "traits": {
-          "otherTags": [],
-          "value": []
-        },
-        "damageRolls": {},
-        "bonus": {
-          "value": 0
-        },
-        "attackEffects": {
-          "value": []
-        },
-        "action": "strike",
-        "area": null
-      },
-      "_id": "AuNygAEFdSf0Xkvp",
-      "img": "systems/pf2e/icons/default-icons/melee.svg",
-      "folder": null,
-      "sort": 0,
-      "flags": {},
-      "_stats": {
-        "compendiumSource": null,
-        "duplicateSource": null,
-        "exportSource": null,
-        "coreVersion": "13.350",
-        "systemId": "pf2e",
-        "systemVersion": "7.6.2"
-      },
-      "ownership": {
-        "default": 0
-      },
-      "_key": "!actors.items!wdlD7yRgb8i7fejP.AuNygAEFdSf0Xkvp"
-    },
-    {
       "type": "action",
       "name": "Shiver Your Timbers",
       "system": {
@@ -1369,6 +1312,63 @@
         "default": 0
       },
       "_key": "!actors.items!wdlD7yRgb8i7fejP.ycFuNAqdi2DuZugE"
+    },
+    {
+      "type": "action",
+      "name": "Raid Ready",
+      "system": {
+        "actionType": {
+          "value": "action"
+        },
+        "description": {
+          "value": "<p>The Free Captain gunner Switches Hands, then Raises a Shield or Reloads, in any order.</p>",
+          "gm": ""
+        },
+        "publication": {
+          "title": "",
+          "authors": "",
+          "license": "OGL",
+          "remaster": false
+        },
+        "rules": [],
+        "slug": null,
+        "traits": {
+          "otherTags": [],
+          "value": []
+        },
+        "_migration": {
+          "version": 0.953,
+          "previous": {
+            "schema": null,
+            "foundry": "13.351",
+            "system": "7.7.4"
+          }
+        },
+        "actions": {
+          "value": 1
+        },
+        "category": "offensive",
+        "deathNote": false
+      },
+      "effects": [],
+      "_id": "FqiswOY4E4rW3pgV",
+      "img": "systems/pf2e/icons/default-icons/action.svg",
+      "folder": null,
+      "sort": 0,
+      "ownership": {
+        "default": 0,
+        "qA45GVv5hySaf9b5": 3
+      },
+      "flags": {},
+      "_stats": {
+        "compendiumSource": null,
+        "duplicateSource": null,
+        "exportSource": null,
+        "coreVersion": "13.351",
+        "systemId": "pf2e",
+        "systemVersion": "7.7.4"
+      },
+      "_key": "!actors.items!wdlD7yRgb8i7fejP.FqiswOY4E4rW3pgV"
     }
   ],
   "effects": [],
