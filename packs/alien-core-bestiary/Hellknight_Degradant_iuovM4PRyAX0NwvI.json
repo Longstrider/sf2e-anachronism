@@ -723,11 +723,11 @@
               "success",
               "criticalSuccess"
             ],
-            "text": "@Localize[SF2E.NPCAbility.HellknightDegradant.GravitonGlaive.Note]",
+            "text": "SF2E.NPCAbility.HellknightDegradant.GravitonGlaive.Note",
             "selector": [
               "graviton-glaive-attack"
             ],
-            "title": "@Localize[SF2E.NPCAbility.HellknightDegradant.GravitonGlaive.Label]"
+            "title": "SF2E.NPCAbility.HellknightDegradant.GravitonGlaive.Label"
           }
         ],
         "slug": null,
