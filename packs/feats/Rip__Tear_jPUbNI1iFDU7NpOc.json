@@ -27,7 +27,7 @@
     },
     "rules": [
       {
-        "diceNumber": 1,
+        "diceNumber": "@weapon.system.damage.dice",
         "dieSize": "d6",
         "key": "DamageDice",
         "selector": "jaws-damage",
@@ -79,7 +79,7 @@
     "exportSource": null,
     "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.7.3"
+    "systemVersion": "7.8.0"
   },
   "_key": "!items!jPUbNI1iFDU7NpOc"
 }

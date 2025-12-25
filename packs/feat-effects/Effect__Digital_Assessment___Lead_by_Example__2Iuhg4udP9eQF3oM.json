@@ -1,6 +1,6 @@
 {
   "folder": null,
-  "name": "Effect: Digital Assessment!",
+  "name": "Effect: Digital Assessment! (Lead by Example)",
   "type": "effect",
   "effects": [],
   "system": {
@@ -69,7 +69,7 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
     "systemVersion": "7.2.3"
   },
