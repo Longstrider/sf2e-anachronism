@@ -1327,7 +1327,7 @@
           "value": "action"
         },
         "description": {
-          "value": "<p>TThe dragon makes two claw Strikes and one tail Strike in any order.</p>",
+          "value": "<p>The dragon makes two claw Strikes and one tail Strike in any order.</p>",
           "gm": ""
         },
         "publication": {
@@ -1366,9 +1366,9 @@
         "compendiumSource": null,
         "duplicateSource": null,
         "exportSource": null,
-        "coreVersion": "13.350",
+        "coreVersion": "13.351",
         "systemId": "pf2e",
-        "systemVersion": "7.6.2"
+        "systemVersion": "7.8.0"
       },
       "ownership": {
         "default": 0
