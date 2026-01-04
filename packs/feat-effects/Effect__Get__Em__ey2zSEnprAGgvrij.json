@@ -73,7 +73,6 @@
       },
       {
         "key": "FlatModifier",
-        "selector": "damage",
         "value": "1+floor(@item.origin.level / 5)",
         "predicate": [
           "target:mark:get-em",
@@ -81,7 +80,10 @@
         ],
         "type": "status",
         "slug": "get-em-lead-by-example",
-        "hideIfDisabled": true
+        "hideIfDisabled": true,
+        "selector": [
+          "strike-damage"
+        ]
       },
       {
         "key": "AdjustModifier",
@@ -140,9 +142,9 @@
     "compendiumSource": null,
     "duplicateSource": null,
     "exportSource": null,
-    "coreVersion": "13.346",
+    "coreVersion": "13.351",
     "systemId": "pf2e",
-    "systemVersion": "7.2.3"
+    "systemVersion": "7.8.0"
   },
   "_id": "ey2zSEnprAGgvrij",
   "sort": 5900000,
